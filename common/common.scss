@@ -10,7 +10,7 @@
     #main-outlet {
         padding-top: 6.5em;
     }
-
+}
     .navigation-container {
         // Category + Tag Drop Down
       .select-kit.combo-box {
@@ -37,7 +37,8 @@
           }
         }
       }
-     // Nav Pills
+    }
+// Nav Pills
 .nav-pills {
     & > li a {
       padding: 0;
@@ -57,6 +58,32 @@
         border-bottom: 4px solid var(--primary);
       }
     }
-  }
+ 
 }
+
+:not(.d-editor-button-bar) > 
+.btn:not(.single-select-header):not(.modal-close),
+.topic-notifications-button > .select-kit > .btn {
+    background-color: var(--header_background);
+    color: var(--primary);
+    border-radius: 1.2em;
+    border: 1px solid var(--primary-low-mid);
+  
+    .d-icon {
+      color: var(--primary);
+    }
+  
+    &:hover {
+      background-color: var(--quaternary-low);
+      color: var(--primary);
+      .d-icon {
+        color: var(--primary);
+      }
+    }
+  
+    &.btn-default,
+    &.btn-primary {
+      padding: 10px 12px;
+    }
+  
 }
