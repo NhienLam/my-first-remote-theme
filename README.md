@@ -1,2 +1,2 @@
 # my-first-remote-theme
-Hello World
+First Discourse Remote Theme
